@@ -8,8 +8,12 @@ import com.epam.jwd.task2.logic.TextLogic;
 import com.epam.jwd.task2.parsing.ParsingException;
 import com.epam.jwd.task2.parsing.ParsingProvider;
 import com.epam.jwd.task2.parsing.TextParser;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class ChangeFirstLastWordCommand implements Command {
+
+    private static final Logger logger = LogManager.getLogger(ChangeFirstLastWordCommand.class);
 
     @Override
     public String execute(String[] params) {
@@ -25,7 +29,7 @@ public class ChangeFirstLastWordCommand implements Command {
             return UserActionViewer.SUCCESS_MESSAGE;
 
         } catch (ParsingException e) {
-            // logging(e)
+            logger.error(e);
             return UserActionViewer.ERROR_MESSAGE;
 
         }
