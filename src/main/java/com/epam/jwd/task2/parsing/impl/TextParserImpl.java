@@ -107,7 +107,6 @@ public class TextParserImpl implements TextParser {
 
 
         for (String sentence : rawSentences) {
-            //System.out.println(sentence);
             List<Word> words = parseSentenceToWord(sentence);
             sentences.add(new Sentence(words));
         }
