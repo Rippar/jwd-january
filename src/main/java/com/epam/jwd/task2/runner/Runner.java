@@ -9,7 +9,7 @@ public class Runner {
         UserDataInput input = new UserDataInput();
 
         while (true) {
-            String request = input.enterFromConsole("Please enter \"change\" in order to change the first and the last word of " +
+            String request = input.enterFromConsole("Please enter \"swap\" in order to change the first and the last word of " +
                     "each sentence of the text" +
                     "\nPlease enter \"remove\" and integer value of length in order to remove the words of current " +
                     "length starts with consonant from the text" +

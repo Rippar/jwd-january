@@ -2,7 +2,7 @@ package com.epam.jwd.task2.entity;
 
 import java.util.List;
 
-public class Paragraph extends TextElement{
+public class Paragraph extends TextElement {
     private int id;
     private List<Sentence> sentences;
 

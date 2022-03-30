@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Text {
 
-    private List <TextElement> textElements;
+    private List<TextElement> textElements;
 
     public Text() {
     }

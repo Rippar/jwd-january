@@ -1,5 +1,10 @@
 package com.epam.jwd.task2.parsing;
 
+/**
+ * The class ParsingException is used to wrap an Exception object that can be thrown at a parsing layer
+ *
+ * @author Dmitry Murzo
+ */
 public class ParsingException extends Exception {
 
     public ParsingException() {

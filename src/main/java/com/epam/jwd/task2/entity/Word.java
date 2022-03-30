@@ -1,6 +1,6 @@
 package com.epam.jwd.task2.entity;
 
-public class Word{
+public class Word {
 
     private static int count = 0;
 

@@ -1,8 +1,6 @@
 package com.epam.jwd.task2.entity;
 
-import java.util.List;
-
-public class Headline extends TextElement{
+public class Headline extends TextElement {
     private int id;
     private String headline;
 

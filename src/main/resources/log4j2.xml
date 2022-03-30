@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="http://logging.apache.org/log4j/2.0/config">
+<Configuration status="ERROR" strict="true"
+               name="XMLConfigTest" packages="org.apache.logging.log4j.test">
     <Appenders>
         <Console name="ConsoleAppender" target="SYSTEM_OUT">
             <PatternLayout pattern="%d %m %n"></PatternLayout>

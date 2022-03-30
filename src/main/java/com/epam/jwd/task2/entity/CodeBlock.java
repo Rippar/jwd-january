@@ -1,6 +1,6 @@
 package com.epam.jwd.task2.entity;
 
-public class CodeBlock extends TextElement{
+public class CodeBlock extends TextElement {
     private int id;
     private String code;
 

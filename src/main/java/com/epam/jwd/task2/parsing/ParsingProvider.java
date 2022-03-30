@@ -2,6 +2,12 @@ package com.epam.jwd.task2.parsing;
 
 import com.epam.jwd.task2.parsing.impl.TextParserImpl;
 
+/**
+ * The class which uses singleton pattern to control the number of parser objects created and also make it possible to
+ * change the implementation of the TextParser interface if necessary
+ *
+ * @author Dmitry Murzo
+ */
 public class ParsingProvider {
 
     private static final ParsingProvider instance = new ParsingProvider();

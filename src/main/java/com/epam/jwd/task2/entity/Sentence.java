@@ -2,7 +2,7 @@ package com.epam.jwd.task2.entity;
 
 import java.util.List;
 
-public class Sentence{
+public class Sentence {
 
     private static int count = 0;
 
@@ -10,7 +10,7 @@ public class Sentence{
     private List<Word> words;
 
     public Sentence() {
-        id =count++;
+        id = count++;
     }
 
     public Sentence(List<Word> words) {
